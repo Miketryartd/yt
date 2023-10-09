@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&family=Quicksand:wght@700&family=Roboto:ital,wght@0,100;0,300;0,700;1,400;1,700;1,900&family=Rubik:wght@800&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+  background-color: rgba(0, 0, 0, 0.803);
+  background-image: url(images3/1327530.jpeg);
+  animation: animation 4s infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes animation{
+    5%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.body1{
+    background: rgba(0, 0, 0, 0.197);
+    color: white;
+    position: fixed;
+    justify-content: center;
+    text-align:center;
+    left: 775px;
+    top: 350px;
+    
+}
+.body1 a{
+    color:rgb(10, 1, 46);
+    transition: 0.4s ease;
+   
+}
+.body1 a:hover{
+    transition: 0.4s ease;
+    background: rgb(145, 8, 24);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color:white;
+
+}
+.body1 #us{
+    position:relative;
+    left:-3px;
+}
+.body1 #log{
+    position: relative;
+    left: 39px;
+    border:none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width:46.5%;
+    cursor:pointer;
+    transition: 0.4s ease;
+}
+.body1 #log:hover{
+    transition: 0.4s ease-in-out;
+    background-color: crimson;
+    color: white;
+}
+.body1 #log:active{
+    background-color: crimson;
+}
+.intro{
+    position: fixed;
+    font-size: 10rem;
+    color:crimson;
+    left: 50px;
+}

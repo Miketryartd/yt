@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | GamersHub</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css" />
+    <script src="auth.js"></script>
+  
+  </head>
+
+  <body>
+    <div class="bodyta"></div>
+    <div class="body0">
+      <div class="intro"><i class='bx bxs-invader' ></i></div>
+    <div class="body1">
+      <div>Login</div>
+
+      <!-- important part, be careful when modifying -->
+      <div data-form-container>
+        <!-- error message in validation -->
+        <p
+          style="
+            display: none;
+            padding: 14px 20px;
+            background: rgb(255, 219, 219);
+            color: rgb(102, 27, 27);
+          "
+          data-form-error
+        ></p>
+
+        <div>
+          <label for="username">Username</label>
+          <input id="us" name="username" type="text" />
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input name="password" type="password" />
+        </div>
+
+        <button id="log" onclick="login()">Log in</button>
+        <p>
+          Don't have an account? Join <a href="signup.html">GamesHub now</a>
+        </p>
+      </div>
+      <!-- until here -->
+    </div>
+  </div>
+  </body>
+</html>
